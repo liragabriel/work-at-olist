@@ -7,5 +7,5 @@ setup(name='work-at-olist',
       author='Gabriel Lira',
       author_email='contact@liragabriel.com',
       packages=['books_app'],
-      install_requires=['flask'],
+      install_requires=['flask', 'mysql-connector'],
       zip_safe=False)
